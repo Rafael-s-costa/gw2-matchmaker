@@ -1,4 +1,4 @@
-package enums;
+package com.rafaelscosta.gw2matchmaker.enums;
 
 public enum EnumPlayerRole {
     DPS,

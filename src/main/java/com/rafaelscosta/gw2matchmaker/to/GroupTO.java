@@ -1,4 +1,4 @@
-package to;
+package com.rafaelscosta.gw2matchmaker.to;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,8 +9,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class MatchResultTO {
+public class GroupTO {
 
     public List<PlayerTO> players;
-
+    public String activityName;
 }

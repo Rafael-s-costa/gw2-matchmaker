@@ -1,6 +1,6 @@
-package algorithm;
+package com.rafaelscosta.gw2matchmaker.algorithm;
 
-import to.PlayerTO;
+import com.rafaelscosta.gw2matchmaker.to.PlayerTO;
 
 import java.util.List;
 

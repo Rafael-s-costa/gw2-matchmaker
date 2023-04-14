@@ -1,6 +1,6 @@
-package algorithm;
+package com.rafaelscosta.gw2matchmaker.algorithm;
 
-import to.PlayerTO;
+import com.rafaelscosta.gw2matchmaker.to.PlayerTO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 public class MatchMakingQueue implements IQueue {
 
     List<PlayerTO> players = new ArrayList<>();
-    MatchmakingAlgorithm algorythm = new MatchmakingAlgorithm();
+    MatchmakingAlgorithm algorithm;
 
     @Override
     public void addToQueue(PlayerTO player) {
@@ -22,6 +22,6 @@ public class MatchMakingQueue implements IQueue {
 
     @Override
     public void matchMake(List<PlayerTO> players) {
-        algorythm.matchMake(players);
+        algorithm.matchMake(players);
     }
 }

@@ -1,4 +1,4 @@
-package config;
+package com.rafaelscosta.gw2matchmaker.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

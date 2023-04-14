@@ -1,8 +1,7 @@
-package Controller;
+package com.rafaelscosta.gw2matchmaker.controller;
 
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;
-import to.MatchResultTO;
 
 @Controller
 public class MatchmakerController {
