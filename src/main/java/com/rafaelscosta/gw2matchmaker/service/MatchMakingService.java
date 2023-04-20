@@ -1,7 +1,7 @@
 package com.rafaelscosta.gw2matchmaker.service;
 
 import com.rafaelscosta.gw2matchmaker.algorithm.MatchMakingQueue;
-import com.rafaelscosta.gw2matchmaker.to.PlayerTO;
+import com.rafaelscosta.gw2matchmaker.pojo.Player;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -9,10 +9,10 @@ import java.util.List;
 @Service
 public class MatchMakingService {
 
-    private List<PlayerTO> players;
+    private List<Player> players;
     private MatchMakingQueue matchMakingQueue;
 
-    public void matchMake(PlayerTO player) {
+    public void matchMake(Player player) {
         matchMakingQueue.matchMake(players);
     }
 }
